@@ -1,3 +1,5 @@
+you can use ur own database as well as table.......
+
 import mysql.connector
 
 def create_database():
@@ -5,7 +7,7 @@ def create_database():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Danish97"
+        password="urpassword"
     )
 
     # new database creation
@@ -21,7 +23,7 @@ def create_table():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Danish97",
+        password="urpassword",
         database="lib"
     )
 
@@ -38,7 +40,7 @@ def add_book():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Danish97",
+        password="urpassword",
         database="lib"
     )
 
@@ -63,7 +65,7 @@ def view_books():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Danish97",
+        password="urpassword",
         database="lib"
     )
 
